@@ -108,12 +108,7 @@ a=_.capitalize(a);
 // document.querySelector("#abcd").click(function() {
 //       document.querySelector("#theform").submit();
 // });
-let port=process.env.PORT;
-if(port===NULL || port==="")
-{
-  port=3000;
-}
-app.listen(port,function(){
+app.listen(process.env.PORT || 3000,function(){
   console.log("hello");
 });
 
