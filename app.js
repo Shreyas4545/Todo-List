@@ -109,7 +109,7 @@ a=_.capitalize(a);
 //       document.querySelector("#theform").submit();
 // });
 let port=process.env.PORT;
-if(port==NULL || port=="")
+if(port===NULL || port==="")
 {
   port=3000;
 }
